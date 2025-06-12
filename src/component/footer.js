@@ -11,7 +11,7 @@ const Footer = () => {
           
         
           <div className="lg:col-span-2">
-            <h3 className="text-2xl font-bold mb-4 text-blue-300">Zain Ali</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-50">Zain Ali</h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
               Full-Stack Web Developer with expertise in modern frontend and backend technologies. 
               Specialized in building scalable, high-performance web applications using ReactJS, 
@@ -41,7 +41,7 @@ const Footer = () => {
 
          
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-blue-300">Services</h4>
+            <h4 className="text-lg font-semibold mb-4 text-gray-50">Services</h4>
             <ul className="space-y-2 text-gray-300">
               <li className="hover:text-blue-300 transition-colors cursor-pointer">Web Development</li>
               <li className="hover:text-blue-300 transition-colors cursor-pointer">API Development</li>
@@ -53,7 +53,7 @@ const Footer = () => {
 
          
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-blue-300">Get In Touch</h4>
+            <h4 className="text-lg font-semibold mb-4 text-gray-50">Get In Touch</h4>
             <div className="space-y-3">
               <a 
                 href="mailto:zain.ali.cs.dev@gmail.com" 
