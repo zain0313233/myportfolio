@@ -1,7 +1,11 @@
 "use client";
 import React, { useState } from "react";
 import { ReactTyped } from "react-typed";
-
+import Skill from "@/component/skill";
+import About from "@/component/about";
+import Services from "@/component/services";
+import Skills from "@/component/SkillStrength";
+import Footer from "@/component/footer";
 export default function Home() {
   const [count, setCount] = useState(0);
 
@@ -30,14 +34,12 @@ export default function Home() {
           <div className="absolute bottom-10 left-1/2 w-64 h-64 bg-yellow-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse animation-delay-4000"></div>
         </div>
 
-        <header className="absolute top-0 left-0 right-0 z-20 bg-black bg-opacity-10 backdrop-blur-md">
+        <header className="absolute top-0 left-0 right-0 z-20 bg-transparent bg-opacity-10s">
           <nav className="max-w-7xl mx-auto px-6 py-4">
-            <div className="flex items-center justify-between">
-              <div className="text-2xl font-bold text-white">
-                <span className="text-orange-400">Zain</span>Ali
-              </div>
+            <div className="flex items-center justify-center">
+             
               
-              <div className="hidden md:flex  space-x-8">
+              <div className="hidden md:flex text-[18px]  space-x-8">
                 <a href="#home" className="text-white hover:text-orange-400 transition-colors duration-300 font-medium">
                   Home
                 </a>
@@ -50,7 +52,7 @@ export default function Home() {
                 <a href="#contact" className="text-white hover:text-orange-400 transition-colors duration-300 font-medium">
                   Contact Us
                 </a>
-                <a href="#resume" className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg transition-colors duration-300 font-medium">
+                <a href="#resume" className="text-white hover:text-orange-400 transition-colors duration-300 font-medium">
                   Resume
                 </a>
               </div>
@@ -62,7 +64,7 @@ export default function Home() {
           </nav>
         </header>
 
-        <div className="relative z-10 flex items-center justify-between h-full px-8 mt-9 lg:px-16 pt-20">
+        <div className="relative z-10 flex items-center justify-between h-full px-8  lg:px-28 pt-20">
           
           <div className="flex-1 max-w-3xl animate-slide-in-left">
             <div className="mb-6">
@@ -100,7 +102,7 @@ export default function Home() {
                 strings={[
                   "As a seasoned full-stack web developer, I bring hands-on experience in both frontend and backend development, with a strong focus on building scalable, high-performance web applications."
                 ]}
-                typeSpeed={30}
+                typeSpeed={40}
                 showCursor={false}
                 startDelay={3000}
               />
@@ -140,8 +142,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right Side - Zain's Image */}
-          <div className="flex-1 flex justify-center items-center animate-slide-in-right">
+         
+          <div className="flex-1 flex justify-center items-center animate-slide-in-right ml-20">
             <div className="relative">
               <div className="w-80 h-96 rounded-2xl p-1 shadow-2xl">
                 <div className="w-full h-full bg-gray-900 rounded-xl overflow-hidden relative">
@@ -162,7 +164,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <div className="w-6 h-10 border-2 border-orange-400 border-opacity-50 rounded-full flex justify-center">
             <div className="w-1 h-3 bg-orange-400 rounded-full mt-2 animate-pulse"></div>
@@ -213,6 +214,11 @@ export default function Home() {
           }
         `}</style>
       </section>
+      <Skill/>
+      <About/>
+      <Services/>
+      <Skills/>
+      <Footer/>
     </>
   );
 }
