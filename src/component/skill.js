@@ -146,7 +146,7 @@ const Skill = () => {
   return (
     <section
       ref={sectionRef}
-      className={` bg-white min-h-[400px] w-auto mt-20 p-6 ${
+      className={` bg-white min-h-[400px] w-auto  p-6 ${
         isVisible ? 'animate-slide-in-top' : 'opacity-0 '
       }`}
     >

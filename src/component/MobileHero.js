@@ -78,17 +78,8 @@ export default function MobileHero() {
               <div className="text-xs text-gray-400">Years</div>
             </div>
           </div>
-
-          {/* <div className="flex flex-col sm:flex-row gap-4 w-full max-w-sm">
-            <button className="flex-1 bg-gradient-to-r from-orange-500 to-amber-500 text-white py-3 px-6 rounded-lg font-medium hover:from-orange-600 hover:to-amber-600 transition-all duration-300 shadow-lg">
-              Download Resume
-            </button>
-            
-          </div> */}
         </div>
-
-      
-      </div>
+   </div>
     </section>
   );
 }
