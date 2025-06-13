@@ -35,11 +35,11 @@ const Skills
   const technicalSkills = [
     { name: 'ReactJS', level: 95 },
     { name: 'NextJS', level: 90 },
-    { name: 'Node.js', level: 85 },
-    { name: 'MongoDB', level: 80 },
-    { name: 'PostgreSQL', level: 75 },
-    { name: 'JavaScript', level: 90 },
-    { name: 'Express.js', level: 85 },
+    { name: 'Node.js', level: 95 },
+    { name: 'MongoDB', level: 90 },
+    { name: 'PostgreSQL', level: 85 },
+    { name: 'JavaScript', level: 100 },
+    { name: 'Express.js', level: 90 },
     { name: 'Tailwind CSS', level: 95 }
   ];
 
@@ -290,14 +290,14 @@ const Skills
               staying updated with the latest technologies, and maintaining a growth mindset in the 
               ever-changing landscape of web development.
             </p>
-            <div className="flex justify-center mt-6 space-x-4">
-              <div className="bg-teal-100 text-teal-700 px-4 py-2 rounded-full text-sm font-medium">
+            <div className="md:flex block  justify-center mt-6 space-x-4">
+              <div className="bg-teal-100  text-teal-700 px-4 py-2 rounded-full text-sm font-medium">
                 1+ Years Experience
               </div>
-              <div className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium">
+              <div className="bg-blue-100 md:my-0 my-3 text-blue-700 px-4 py-2 rounded-full text-sm font-medium">
                 5+ Projects Completed
               </div>
-              <div className="bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium">
+              <div className="bg-purple-100 text-purple-700 px-4 py-2 rounded-full sm:justify-self-center sm:mt-3 text-sm font-medium">
                 Full Stack Developer
               </div>
             </div>

@@ -56,7 +56,7 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 py-20">
-      {/* Header Section */}
+     
       <div className="max-w-6xl mx-auto px-6">
         <div 
           id="header"
@@ -204,7 +204,7 @@ const About = () => {
                 }}
               >
                 <div className="flex items-center mb-4">
-                  <div className="bg-blue-200 p-3 rounded-lg mr-4">
+                  <div className="md:bg-blue-200 bg-gray-600 p-3 rounded-lg mr-4">
                     {project.icon}
                   </div>
                   <h3 className="text-xl font-semibold text-gray-800">{project.title}</h3>

@@ -147,12 +147,12 @@ const Skill = () => {
     <section
       ref={sectionRef}
       className={`min-h-[400px] w-auto mt-20 p-6 ${
-        isVisible ? 'animate-slide-in-top' : 'opacity-0'
+        isVisible ? 'animate-slide-in-top' : 'opacity-0 bg-white'
       }`}
     >
       <h2 className="text-4xl font-bold text-center mb-16">My Skills</h2>
       
-      <div className="grid grid-cols-6 gap-4 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-6 grid-cols-4 gap-4 max-w-6xl mx-auto">
         {skills.map((skill, index) => (
           <div
             key={index}
