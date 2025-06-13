@@ -150,7 +150,7 @@ const Skill = () => {
         isVisible ? 'animate-slide-in-top' : 'opacity-0 '
       }`}
     >
-      <h2 className="text-4xl font-bold text-center mb-16">My Skills</h2>
+      <h2 className="text-5xl font-bold text-center mb-16 text-black">My Skills</h2>
       
       <div className="grid md:grid-cols-6 grid-cols-4 gap-4 max-w-6xl mx-auto">
         {skills.map((skill, index) => (
@@ -163,7 +163,7 @@ const Skill = () => {
             <div className="mb-2">
               {skill.icon}
             </div>
-            <span className="text-xs font-medium leading-tight">{skill.name}</span>
+            <span className="text-xs font-medium leading-tight text-black">{skill.name}</span>
           </div>
         ))}
       </div>
