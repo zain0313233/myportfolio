@@ -186,7 +186,7 @@ const Services = () => {
               Ready to Start Your Project?
             </h3>
             <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-              Let's work together to bring your ideas to life with modern web technologies 
+              Lets work together to bring your ideas to life with modern web technologies 
               and best development practices.
             </p>
             <button className="bg-gray-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
@@ -255,6 +255,7 @@ const Services = () => {
           animation: slideInRight 0.5s ease-out forwards;
         }
       `}</style>
+      
     </div>
   );
 };
