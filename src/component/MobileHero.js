@@ -10,7 +10,7 @@ export default function MobileHero() {
       
       <div className="relative z-10 px-6 pt-20 pb-12 min-h-screen flex flex-col">
         <div className="flex-1 flex flex-col justify-center items-center text-center space-y-8">
-          <div className="w-40 h-48 rounded overflow-hidden border-4 border-orange-400/30 shadow-2xl">
+          <div className="w-40 h-48 rounded-full overflow-hidden border-4 border-orange-400/30 shadow-2xl">
             <img 
               src="/Images/zain.jpg" 
               alt="Zain Ali" 
@@ -79,12 +79,12 @@ export default function MobileHero() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 w-full max-w-sm">
+          {/* <div className="flex flex-col sm:flex-row gap-4 w-full max-w-sm">
             <button className="flex-1 bg-gradient-to-r from-orange-500 to-amber-500 text-white py-3 px-6 rounded-lg font-medium hover:from-orange-600 hover:to-amber-600 transition-all duration-300 shadow-lg">
               Download Resume
             </button>
             
-          </div>
+          </div> */}
         </div>
 
       

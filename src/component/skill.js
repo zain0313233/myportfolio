@@ -146,8 +146,8 @@ const Skill = () => {
   return (
     <section
       ref={sectionRef}
-      className={`min-h-[400px] w-auto mt-20 p-6 ${
-        isVisible ? 'animate-slide-in-top' : 'opacity-0 bg-white'
+      className={` bg-white min-h-[400px] w-auto mt-20 p-6 ${
+        isVisible ? 'animate-slide-in-top' : 'opacity-0 '
       }`}
     >
       <h2 className="text-4xl font-bold text-center mb-16">My Skills</h2>
